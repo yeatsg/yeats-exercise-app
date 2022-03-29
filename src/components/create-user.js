@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 
-function CreateUser() {
-  return (
-    <div>
-      <p>You are on page CreateUser .</p>
-    </div>
-  );
+export default class CreateUser extends Component {
+  render() {
+    return (
+      <div>
+        <p>You are on page CreateUser .</p>
+      </div>
+    );
+  }
 }
-
-export default CreateUser;

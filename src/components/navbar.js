@@ -20,7 +20,7 @@ export default class Navbar extends Component {
                 Create Exercise Log
               </Link>
             </li>
-            <li>
+            <li className="navbar-item">
               <Link to="/user" className="nav-link">
                 Create User
               </Link>

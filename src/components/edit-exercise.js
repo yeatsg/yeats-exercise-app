@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 
-function EditExercise() {
-  return (
-    <div>
-      <p>You are on page EditExercises .</p>
-    </div>
-  );
+export default class EditExercise extends Component {
+  render() {
+    return (
+      <div>
+        <p>You are on page EditExercises .</p>
+      </div>
+    );
+  }
 }
-
-export default EditExercise;
